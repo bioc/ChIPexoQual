@@ -21,9 +21,6 @@ To install the package, it is easiest to use:
 
 ```
 #install.packages("devtools")
-if (!requireNamespace("BiocManager", quietly=TRUE))
-    install.packages("BiocManager")
-BiocManager::install("BiocInstaller")
 devtools::install_github("welch16/ChIPexoQualExample")
 devtools::install_github("welch16/ChIPexoQual",ref = "devel")
 ```
