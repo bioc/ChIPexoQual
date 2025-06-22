@@ -1,7 +1,7 @@
 Package: ChIPexoQual
 Type: Package
 Title: ChIPexoQual
-Version: 1.33.0
+Version: 1.33.1
 Author: Rene Welch, Dongjun Chung, Sunduz Keles
 Maintainer: Rene Welch <welch@stat.wisc.edu>
 Authors@R: c(person(given = "Dongjun", family = "Chung", role = "aut"),
@@ -13,10 +13,10 @@ Description: Package with a quality control pipeline for ChIP-exo/nexus
 URL: https:github.com/keleslab/ChIPexoQual
 BugReports: https://github.com/welch16/ChIPexoQual/issues
 License: GPL (>=2)
-Depends: R (>= 3.4.0), GenomicAlignments (>= 1.0.1)
-Imports: methods, utils, GenomeInfoDb, stats, BiocParallel, GenomicRanges (>=
-        1.14.4), ggplot2 (>= 1.0), data.table (>= 1.9.6), Rsamtools (>=
-        1.16.1), IRanges (>= 1.6), S4Vectors (>= 0.8), biovizBase (>=
+Depends: R (>= 3.4.0), GenomicAlignments (>= 1.45.1)
+Imports: methods, utils, Seqinfo, stats, BiocParallel, GenomicRanges (>=
+        1.61.1), ggplot2 (>= 1.0), data.table (>= 1.9.6), Rsamtools (>=
+        2.25.1), IRanges (>= 1.6), S4Vectors (>= 0.8), biovizBase (>=
         1.18), broom (>= 0.4), RColorBrewer (>= 1.1), dplyr (>= 0.5),
         scales (>= 0.4.0), viridis (>= 0.3), hexbin (>= 1.27),
         rmarkdown
@@ -25,4 +25,4 @@ Suggests: ChIPexoQualExample (>= 0.99.1), knitr (>= 1.10), BiocStyle,
 VignetteBuilder: knitr
 biocViews: ChIPSeq, Sequencing, Transcription, Visualization,
         QualityControl, Coverage, Alignment
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2

@@ -6,7 +6,7 @@
 ##' @importFrom data.table ":=" rbindlist .N data.table as.data.table
 ##' @importFrom BiocParallel SnowParam bpmapply MulticoreParam
 ##' @import  methods
-##' @import  GenomeInfoDb
+##' @import  Seqinfo
 ##' @import utils
 NULL
 
